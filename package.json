@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "idb-keyval": "^6.2.1",
+    "lucide-react": "^0.454.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "description": "abbasapplio — AI Voice Studio. A mobile-first Arabic RTL interface around the official Applio voice-conversion project running on Google Colab.",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vite-plugin-pwa": "^0.20.5"
+  },
+  "name": "abbasapplio",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "icons": "python3 scripts/generate-icons.py"
+  },
+  "type": "module",
+  "version": "0.1.0"
+}
